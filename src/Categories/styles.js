@@ -10,8 +10,8 @@ const styles = StyleSheet.create({
     color: '#000000',
   },
   itemContainer: {
-    marginVertical: 14,
     marginRight: 17,
+    marginBottom: 14,
   },
   selectedItemContainer: {
     borderBottomColor: '#4681A3',

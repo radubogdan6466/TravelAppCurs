@@ -1,12 +1,12 @@
 import React from 'react';
 import {Text, Image, View} from 'react-native';
 import styles from './styles';
-const AttractionCard = ({imageSrc, title, subtitle}) => {
+const AttractionCard = ({imageSrc, title, subtitle, style}) => {
   if (!imageSrc) {
     return null; // sau puteți returna un element placeholder
   }
   return (
-    <View style={styles.card}>
+    <View style={[styles.card, style]}>
       <Image style={styles.image} source={{uri: imageSrc}} />
       <Text style={styles.title}>{title}</Text>
       <View style={styles.row}>

@@ -1,44 +1,69 @@
-import React, {useState} from 'react';
-import {View, SafeAreaView} from 'react-native';
+import React, {useEffect, useState} from 'react';
+import {SafeAreaView, FlatList, View, Text} from 'react-native';
 import Title from '../../components/Title';
 import styles from './styles';
 import Categories from '../../Categories/index';
 import AttractionCard from '../../AttractionCard/index';
-const Home = () => {
-  const [selectedCategory, setSelectedCategory] = useState('All');
-  return (
-    <SafeAreaView>
-      <View style={styles.container}>
-        <Title text="Where do" style={{fontWeight: 'normal'}} />
-        <Title text="you want to go?" />
-        <Title text="Explore Attractions" style={styles.subtitles} />
-        <Categories
-          selectedCategory={selectedCategory}
-          onCategoryPress={setSelectedCategory}
-          categories={[
-            'All',
-            'Popular',
-            'Historical',
-            'Random',
-            'Trending',
-            'Exclusive',
-            'Others',
-          ]}
-        />
+import jsonData from '../../data/attractions.json';
+import categories from '../../data/categories.json';
 
-        <View style={styles.row}>
+const ALL = 'All';
+const Home = () => {
+  const [selectedCategory, setSelectedCategory] = useState(ALL);
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    setData(jsonData);
+  }, []);
+
+  useEffect(() => {
+    if (selectedCategory === ALL) {
+      setData(jsonData);
+    } else {
+      const filteredData = jsonData?.filter(item =>
+        item?.categories?.includes(selectedCategory),
+      );
+
+      setData(filteredData);
+    }
+  }, [selectedCategory]);
+
+  return (
+    <SafeAreaView style={styles.container}>
+      <FlatList
+        data={data}
+        numColumns={2}
+        style={{flexGrow: 1}}
+        ListEmptyComponent={
+          <Text style={styles.emptyText}>No items found</Text>
+        }
+        ListHeaderComponent={
+          <View style={{margin: 32}}>
+            <Title text="Where do" style={{fontWeight: 'normal'}} />
+            <Title text="you want to go" />
+            <Title text="Explore Attractions" style={styles.subtitle} />
+            <Categories
+              selectedCategory={selectedCategory}
+              onCategoryPress={setSelectedCategory}
+              categories={[ALL, ...categories]}
+            />
+          </View>
+        }
+        keyExtractor={item => String(item?.id)}
+        renderItem={({item, index}) => (
           <AttractionCard
-            title="Timisoara center"
-            subtitle="Centru"
-            imageSrc="https://upload.wikimedia.org/wikipedia/commons/e/ef/Pia%C8%9Ba_Victoriei_Timi%C8%99oara.jpg"
+            key={item.id}
+            style={
+              index % 2 === 0
+                ? {marginRight: 12, marginLeft: 32}
+                : {marginRight: 32}
+            }
+            title={item.name}
+            subtitle={item.city}
+            imageSrc={item.images?.length ? item.images[0] : null}
           />
-          <AttractionCard
-            title="Piat Unirii"
-            subtitle="Piata Unirii"
-            imageSrc="https://images.pexels.com/photos/10135693/pexels-photo-10135693.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          />
-        </View>
-      </View>
+        )}
+      />
     </SafeAreaView>
   );
 };
