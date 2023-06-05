@@ -96,7 +96,13 @@
     "address": "Strada General Traian Doda 1",
     "opening_time": "8:00 AM",
     "closing_time": "12:00 AM",
-    "categories": ["Pub-uri", "Cele mai vizitate", "Recomandat", "Populare"],
+    "categories": [
+      "Pub-uri",
+      "Cele mai vizitate",
+      "Recomandat",
+      "Populare",
+      "Mancare"
+    ],
     "images": [
       "https://media-cdn.tripadvisor.com/media/photo-s/11/df/2f/0b/let-s-have-a-drink-in.jpg",
       "https://lh3.googleusercontent.com/p/AF1QipN8dHnedCrHVv5TYvhsXIHzUJoKFb6iaqj1Jaqv=s1360-w1360-h1020",
@@ -128,7 +134,7 @@
     "address": "Strada Martin Luther nr. 4",
     "opening_time": "5:00 PM",
     "closing_time": "02:00 AM",
-    "categories": ["Pub-uri"],
+    "categories": ["Pub-uri", "Mancare"],
     "images": [
       "https://lh3.googleusercontent.com/p/AF1QipNf1OfqNcSIDnjF6fWAceCO99XbJCjNUrX5YSHK=s1360-w1360-h1020",
       "https://lh3.googleusercontent.com/p/AF1QipM7Gx48axq8U8v9syqEj8uz73EmuM3Euoywe9zq=s1360-w1360-h1020",
@@ -142,12 +148,12 @@
       "lon": 10.3966
     },
     "Menu": {
-      "Bere": ["Tuborg", "Carlsberg", "holsten"],
-      "Mancare": ["Popcorn", "Ceafa de porc la gratar", "Paste Carbonara"]
+      "Bere": ["Heineken 0.33L", "Corona 0.33L", "Becks 0.33L"],
+      "Mancare": ["Pasta Carbonara", "Pizza Margherita", "Salata Caesar"]
     },
     "Preturi": {
-      "Bere": [11, 13, 12],
-      "Mancare": [8, 32, 36]
+      "Bere": [18, 16, 14],
+      "Mancare": [40, 30, 25]
     }
   },
   {
@@ -173,12 +179,16 @@
       "lon": 10.3966
     },
     "Menu": {
-      "Bere": ["Bere"],
-      "Mancare": ["Nu se serveste"]
+      "Bere": ["Efes 0.5L", "Stella Artois 0.33L", "Leffe 0.33L"],
+      "Mancare": [
+        "Paste cu fructe de mare",
+        "Pui Teriyaki",
+        "Cârnați cu cartofi"
+      ]
     },
     "Preturi": {
-      "Bere": ["10-30"],
-      "Mancare": []
+      "Bere": [20, 15, 18],
+      "Mancare": [48, 36, 30]
     }
   },
   {
@@ -190,7 +200,7 @@
     "address": " Splaiul Nicolae Titulescu - mal Bega",
     "opening_time": "10:00 AM",
     "closing_time": "12:00 AM",
-    "categories": ["Pub-uri", "Cele mai vizitate"],
+    "categories": ["Pub-uri", "Cele mai vizitate", "Mancare"],
     "images": [
       "https://lh3.googleusercontent.com/p/AF1QipMlmhME6ePKCov3WzNFYv7TvIwQEtCgegxU4n_t=s680-w680-h510",
       "https://lh3.googleusercontent.com/p/AF1QipN1RTuvcfhHNepl-ZjHIzWp4lqwg3AsSjdlNng=s680-w680-h510",
@@ -204,12 +214,12 @@
       "lon": 10.3966
     },
     "Menu": {
-      "Bere": ["Timisoreana", "Bere"],
-      "Mancare": ["Omleta"]
+      "Bere": ["Budweiser 0.5L", "Carlsberg 0.33L", "Asahi 0.33L"],
+      "Mancare": ["Taco mexican", "Bucăți de pui pane", "Ratatouille"]
     },
     "Preturi": {
-      "Bere": [12, 13],
-      "Mancare": [16]
+      "Bere": [19, 14, 16],
+      "Mancare": [32, 26, 20]
     }
   },
   {
@@ -248,7 +258,6 @@
       "https://lh3.googleusercontent.com/p/AF1QipOQXt3yyRYUJ4Kp_ROuHJWTbxOS_AloMfVFquAd=s1360-w1360-h1020",
       "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/MuzeuArta_Timisoara.jpg/420px-MuzeuArta_Timisoara.jpg",
       "https://lh3.googleusercontent.com/p/AF1QipPBaI6UlEp-vSDTx08bWLp8CL3i9EQc7PeUKry5=s1360-w1360-h1020",
-      "https://lh3.googleusercontent.com/p/AF1QipOQXt3yyRYUJ4Kp_ROuHJWTbxOS_AloMfVFquAd=s1360-w1360-h1020",
       "https://lh3.googleusercontent.com/p/AF1QipPd4TL3J6nBA5JLLtaB5sZUBrcGxv2DiuaN5C3x=s1360-w1360-h1020",
       "https://lh3.googleusercontent.com/p/AF1QipORSOzX2vvhP--2kKjc9kTxhI7SovQVs9gNMyTE=s1360-w1360-h1020"
     ],
@@ -272,8 +281,7 @@
       "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/MuzeuArta_Timisoara.jpg/420px-MuzeuArta_Timisoara.jpg",
       "https://lh3.googleusercontent.com/p/AF1QipPBaI6UlEp-vSDTx08bWLp8CL3i9EQc7PeUKry5=s1360-w1360-h1020",
       "https://lh3.googleusercontent.com/p/AF1QipOQXt3yyRYUJ4Kp_ROuHJWTbxOS_AloMfVFquAd=s1360-w1360-h1020",
-      "https://lh3.googleusercontent.com/p/AF1QipPd4TL3J6nBA5JLLtaB5sZUBrcGxv2DiuaN5C3x=s1360-w1360-h1020",
-      "https://lh3.googleusercontent.com/p/AF1QipORSOzX2vvhP--2kKjc9kTxhI7SovQVs9gNMyTE=s1360-w1360-h1020"
+      "https://lh3.googleusercontent.com/p/AF1QipPd4TL3J6nBA5JLLtaB5sZUBrcGxv2DiuaN5C3x=s1360-w1360-h1020"
     ],
     "coordinates": {
       "lat": 43.723,
@@ -295,7 +303,6 @@
       "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/MuzeuArta_Timisoara.jpg/420px-MuzeuArta_Timisoara.jpg",
       "https://lh3.googleusercontent.com/p/AF1QipPBaI6UlEp-vSDTx08bWLp8CL3i9EQc7PeUKry5=s1360-w1360-h1020",
       "https://lh3.googleusercontent.com/p/AF1QipOQXt3yyRYUJ4Kp_ROuHJWTbxOS_AloMfVFquAd=s1360-w1360-h1020",
-      "https://lh3.googleusercontent.com/p/AF1QipPd4TL3J6nBA5JLLtaB5sZUBrcGxv2DiuaN5C3x=s1360-w1360-h1020",
       "https://lh3.googleusercontent.com/p/AF1QipORSOzX2vvhP--2kKjc9kTxhI7SovQVs9gNMyTE=s1360-w1360-h1020"
     ],
     "coordinates": {
@@ -323,6 +330,183 @@
     "coordinates": {
       "lat": 43.723,
       "lon": 10.3966
+    }
+  },
+  {
+    "id": 14,
+    "name": "Restaurantul Dacilor",
+    "city": "Timisoara",
+    "country": "Romania",
+    "entry_price": "",
+    "address": "Strada Romulus 2",
+    "opening_time": "9:00 AM",
+    "closing_time": "11:00 PM",
+    "categories": ["Mancare", "Recomandat"],
+    "images": [
+      "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_850,h_567/https://www.gafasamarillas.com/wp-content/uploads/2016/09/restaurante-random-madrid-9.jpg",
+      "https://media-cdn.tripadvisor.com/media/photo-s/1b/6b/33/12/getlstd-property-photo.jpg"
+    ],
+    "coordinates": {
+      "lat": 43.7189,
+      "lon": 10.3993
+    },
+    "Menu": {
+      "Bere": ["Staropramen 0.5L", "Pilsner Urquell 0.33L", "Krusovice 0.33L"],
+      "Mancare": ["Biftec tartar", "Pui Tikka Masala", "Plăcintă cu carne"]
+    },
+    "Preturi": {
+      "Bere": [21, 16, 15],
+      "Mancare": [58, 45, 35]
+    }
+  },
+  {
+    "id": 15,
+    "name": "Pizzeria Bella Napoli",
+    "city": "Timisoara",
+    "country": "Romania",
+    "entry_price": "",
+    "address": "Strada Nicolae Iorga 5",
+    "opening_time": "11:00 AM",
+    "closing_time": "10:00 PM",
+    "categories": ["Mancare"],
+    "images": [
+      "https://bookingham.blob.core.windows.net/businesscovers/755",
+      "https://restograf.ro/wp-content/uploads/2022/12/homemade-timisoara.jpg"
+    ],
+    "coordinates": {
+      "lat": 43.7295,
+      "lon": 10.3978
+    },
+    "Menu": {
+      "Bere": ["Heineken 0.33L", "Corona 0.33L", "Becks 0.33L"],
+      "Mancare": ["Pasta Carbonara", "Pizza Margherita", "Salata Caesar"]
+    },
+    "Preturi": {
+      "Bere": [18, 16, 14],
+      "Mancare": [40, 30, 25]
+    }
+  },
+  {
+    "id": 16,
+    "name": "Cafeneaua Artizan",
+    "city": "Timisoara",
+    "country": "Romania",
+    "entry_price": "",
+    "address": "Strada Gheorghe Lazar 10",
+    "opening_time": "7:00 AM",
+    "closing_time": "8:00 PM",
+    "categories": ["Pub-uri"],
+    "images": [
+      "https://hoteldelcorso.ro/img/58017DSC08537.jpg",
+      "https://lovedeco.ro/wp-content/uploads/2020/03/Quisine-Timisoara-Amenajare-restaurant-Pure-Mess-Design-5.jpg"
+    ],
+    "coordinates": {
+      "lat": 43.7314,
+      "lon": 10.3951
+    },
+    "Menu": {
+      "Bere": ["Ciuc Radler", "Silva 0.5L", "Tuborg 0.5L"],
+      "Mancare": ["Supa de pui", "Ciorba de fasole", "Sarmale"]
+    },
+    "Preturi": {
+      "Bere": [15, 12, 16],
+      "Mancare": [25, 22, 28]
+    }
+  },
+  {
+    "id": 17,
+    "name": "Restaurantul La Perla",
+    "city": "Timisoara",
+    "country": "Romania",
+    "entry_price": "",
+    "address": "Strada Constantin Brancoveanu 7",
+    "opening_time": "12:00 PM",
+    "closing_time": "11:00 PM",
+    "categories": ["Mancare"],
+    "images": [
+      "https://perla-restaurant.ro/wp-content/uploads/2023/05/perla-10532-big.jpg",
+      "https://media-cdn.tripadvisor.com/media/photo-s/06/8c/85/b3/perla.jpg"
+    ],
+    "coordinates": {
+      "lat": 43.728,
+      "lon": 10.3927
+    },
+    "Menu": {
+      "Bere": ["Heineken 0.33L", "Corona 0.33L", "Becks 0.33L"],
+      "Mancare": ["Pasta Carbonara", "Pizza Margherita", "Salata Caesar"]
+    },
+    "Preturi": {
+      "Bere": [18, 16, 14],
+      "Mancare": [40, 30, 25]
+    }
+  },
+  {
+    "id": 18,
+    "name": "Pub-ul The King's Arms",
+    "city": "Timisoara",
+    "country": "Romania",
+    "entry_price": "",
+    "address": "Strada Martir Silviu Dragomir 3",
+    "opening_time": "10:00 AM",
+    "closing_time": "2:00 AM",
+    "categories": ["Pub-uri", "Recomandat"],
+    "images": [
+      "https://i0.wp.com/strikefans.com/wp-content/uploads/2017/01/Kings-Arms-corner.jpg?fit=3785%2C2697",
+      "https://cdn.vox-cdn.com/thumbor/5d_RtADj8ncnVqh-afV3mU-XQv0=/0x0:1600x1067/1200x900/filters:focal(672x406:928x662)/cdn.vox-cdn.com/uploads/chorus_image/image/57698831/51951042270_78ea1e8590_h.7.jpg"
+    ],
+    "Menu": {
+      "Bere": ["Budweiser 0.5L", "Carlsberg 0.33L", "Asahi 0.33L"],
+      "Mancare": ["Taco mexican", "Bucăți de pui pane", "Ratatouille"]
+    },
+    "Preturi": {
+      "Bere": [19, 14, 16],
+      "Mancare": [32, 26, 20]
+    }
+  },
+  {
+    "id": 19,
+    "name": "Pub-ul The Red Lion",
+    "city": "Timisoara",
+    "country": "Romania",
+    "entry_price": "",
+    "address": "Strada Ion Ghica 13",
+    "opening_time": "12:00 PM",
+    "closing_time": "2:00 AM",
+    "categories": ["Pub-uri", "Recomandat"],
+    "images": [
+      "https://static.standard.co.uk/s3fs-public/thumbnails/image/2017/11/28/17/old-red-lion-pic.jpg?width=968&auto=webp&quality=50&crop=968%3A645%2Csmart",
+      "https://media-cdn.tripadvisor.com/media/photo-s/1b/05/9e/ec/a-pub-can-be-a-magical.jpg"
+    ],
+    "Menu": {
+      "Bere": ["Guinness 0.5L", "Kilkenny 0.33L", "Murphy's 0.33L"],
+      "Mancare": ["Fish and Chips", "Pie and Mash", "Full English Breakfast"]
+    },
+    "Preturi": {
+      "Bere": [18, 16, 14],
+      "Mancare": [28, 22, 18]
+    }
+  },
+  {
+    "id": 20,
+    "name": "Pub-ul The Crown",
+    "city": "Timisoara",
+    "country": "Romania",
+    "entry_price": "",
+    "address": "Strada Horea 10",
+    "opening_time": "11:00 AM",
+    "closing_time": "1:00 AM",
+    "categories": ["Pub-uri", "Recomandat"],
+    "images": [
+      "https://media-cdn.tripadvisor.com/media/photo-s/1b/05/9e/ec/a-pub-can-be-a-magical.jpg",
+      "https://media-cdn.tripadvisor.com/media/photo-s/1b/05/9e/ec/a-pub-can-be-a-magical.jpg"
+    ],
+    "Menu": {
+      "Bere": ["Guinness 0.5L", "Kilkenny 0.33L", "Murphy's 0.33L"],
+      "Mancare": ["Fish and Chips", "Pie and Mash", "Full English Breakfast"]
+    },
+    "Preturi": {
+      "Bere": [18, 16, 14],
+      "Mancare": [28, 22, 18]
     }
   }
 ]

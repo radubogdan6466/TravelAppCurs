@@ -17,6 +17,10 @@ const AttractionDetails = ({navigation, route}) => {
   const mainImage = item?.images?.length ? item?.images[0] : null;
   const slicedImages = item?.images?.length ? item?.images?.slice(0, 5) : [];
   const diffImages = item?.images?.length - slicedImages?.length;
+  //verific daca are meniu
+  const hasMenu =
+    item.Menu && (item.Menu.Bere.length > 0 || item.Menu.Mancare.length > 0);
+
   const onBack = () => {
     navigation.goBack();
   };
@@ -67,32 +71,57 @@ const AttractionDetails = ({navigation, route}) => {
 ${item?.opening_time} - ${item?.closing_time}`}
           icon={require('../../assets/schedule.png')}
         />
+        <View>
+          {hasMenu && (
+            <InfoCard
+              text={
+                <View>
+                  <Text style={styles.title}>Ce gasesti la {item?.name}</Text>
+                  {item.Menu.Bere.length > 0 && (
+                    <View style={styles.menuSection}>
+                      <View style={styles.container}>
+                        <Text style={styles.categoryTitle}>Bere</Text>
+                        <Image
+                          style={styles.iconBeer}
+                          source={require('../../assets/beer.png')}
+                        />
+                      </View>
 
-        <InfoCard
-          text={
-            <View>
-              <Text style={{fontWeight: 'bold'}}>Bere</Text>
-              {item?.Menu?.Bere.map((bere, index) => (
-                <View key={index} style={{flexDirection: 'row'}}>
-                  <Text>{bere}</Text>
-                  <Text style={{marginLeft: 10}}>
-                    - {item?.Preturi?.Bere[index]} lei
-                  </Text>
+                      {item.Menu.Bere.map((bere, index) => (
+                        <View key={index} style={styles.menuItem}>
+                          <Text style={styles.bereText}>{bere}</Text>
+                          <Text style={styles.price}>
+                            - {item.Preturi.Bere[index]} lei
+                          </Text>
+                        </View>
+                      ))}
+                    </View>
+                  )}
+                  {item.Menu.Mancare.length > 0 && (
+                    <View style={styles.menuSection}>
+                      <View style={styles.container}>
+                        <Text style={styles.categoryTitle}>Mancare</Text>
+                        <Image
+                          style={styles.iconBeer}
+                          source={require('../../assets/foodmenu.png')}
+                        />
+                      </View>
+                      {item.Menu.Mancare.map((mancare, index) => (
+                        <View key={index} style={styles.menuItem}>
+                          <Text style={styles.mancareText}>{mancare}</Text>
+                          <Text style={styles.price}>
+                            - {item.Preturi.Mancare[index]} lei
+                          </Text>
+                        </View>
+                      ))}
+                    </View>
+                  )}
                 </View>
-              ))}
-              <Text style={{fontWeight: 'bold'}}>Mancare</Text>
-              {item?.Menu?.Mancare.map((Mancare, index) => (
-                <View key={index} style={{flexDirection: 'row'}}>
-                  <Text>{Mancare}</Text>
-                  <Text style={{marginLeft: 10}}>
-                    - {item?.Preturi?.Mancare[index]} lei
-                  </Text>
-                </View>
-              ))}
-            </View>
-          }
-          icon={require('../../assets/food.png')}
-        />
+              }
+              icon={require('../../assets/food.png')}
+            />
+          )}
+        </View>
       </ScrollView>
     </SafeAreaView>
   );
