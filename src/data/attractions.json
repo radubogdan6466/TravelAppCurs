@@ -1,22 +1,20 @@
 [
   {
     "id": 1,
-    "name": "Colosseum",
-    "city": "Rome",
-    "country": "Italy",
-    "entry_price": "$20",
+    "name": "Parcul Rozelor",
+    "city": "Timisoara",
+    "country": "Romania",
+    "entry_price": "",
     "address": "Piazza del Colosseo, 1, 00184 Roma RM, Italy",
-    "opening_time": "9:00 AM",
-    "closing_time": "7:00 PM",
-    "categories": ["Most Visited", "Historical"],
+    "opening_time": "12:00 AM",
+    "closing_time": "12:00 PM",
+    "categories": ["Parcuri"],
     "images": [
-      "https://www.arttrav.com/wp-content/uploads/2021/06/colosseum-alexandrakorey.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/5/53/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
-      "https://static01.nyt.com/images/2022/06/12/world/12italy-colosseum-01/merlin_206622975_bf44e9c5-b817-405f-b46a-33f6fe5f88a8-superJumbo.jpg",
-      "http://cdn.cnn.com/cnnnext/dam/assets/200925160752-colosseum-file-restricted.jpg",
-      "https://www.travelandleisure.com/thmb/t74QyXS4Oi2C0Lg-_waWgOKTstI=/1600x1000/filters:fill(auto,1)/colosseum-rome-night-stars-ARENA0217-b7ebd36d82b0427caaac90674ba17028.jpg",
-      "https://www.onthegotours.com/blog/wp-content/uploads/2019/05/Colosseum-in-the-morning-Rome-Italy.jpg",
-      "https://hips.hearstapps.com/hmg-prod/images/tod-s-for-colosseum-hypogea-1-1624912790.jpg"
+      "https://spotlight-timisoara.eu/wp-content/uploads/2022/06/parculRozelornew1.jpg",
+      "https://merg.in/thumbs/big_art/2015/05/15/parcul-rozelor-din-timisoara-1252.jpg",
+      "https://www.comfort-apartments.ro/wp-content/uploads/2020/05/Parcul-Rozelor-din-Timi%C8%99oara-750x330.jpg",
+      "https://www.welcometoromania.ro/Timisoara/images/rozelor15.jpg",
+      "https://ghidul-horeca.ro/wp-content/uploads/2021/07/Parcul-Rozelor-din-Timisoara-26.jpg"
     ],
     "coordinates": {
       "lat": 41.8902,
@@ -25,18 +23,21 @@
   },
   {
     "id": 2,
-    "name": "Taj Mahal",
-    "city": "Agra",
-    "country": "India",
-    "entry_price": "$14",
-    "address": "Dharmapuri, Forest Colony, Tajganj, Agra, Uttar Pradesh 282001, India",
-    "opening_time": "7:00 AM",
+    "name": "Parcul Botanic",
+    "city": "Timisoara",
+    "country": "Romania",
+    "entry_price": "",
+    "address": "Strada Gheorghe Dima",
+    "opening_time": "9:00 AM",
     "closing_time": "5:00 PM",
-    "categories": ["Most Visited", "Historical"],
+    "categories": ["Parcuri", "Trending"],
     "images": [
-      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/6e/b1/6a/caption.jpg?w=1200&h=-1&s=1",
-      "https://www.forbesindia.com/media/images/2022/May/img_184243_tajmahalindia.jpg",
-      "https://www.tajmahal.gov.in/images/tajmahal-view/day/1.jpg"
+      "https://lh3.googleusercontent.com/p/AF1QipPxcbI7XN2n4Q3Enmp03SvI9J1AK4iEEfaTHqW-=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipM78A-bdPLkfHUzyOF5yXSm1i2EMTqQXNNi3WBO=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipM86CHntga1L-AgfnVVKL6K6VDuorQ-epRjlQtQ=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipP1ZS81sfBkr5Md8XxLTUiSjrY1l11Vbe4lDwNF=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipO9_gLA8KOV9mPCfoHiTDYoivKTOkY4keyhZh3x=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipM31M49kC2nAmBdQOquVffjCs2yZujoHilCyJxO=s1360-w1360-h1020"
     ],
     "coordinates": {
       "lat": 27.1751,
@@ -45,19 +46,19 @@
   },
   {
     "id": 3,
-    "name": "Eiffel Tower",
-    "city": "Paris",
-    "country": "France",
-    "entry_price": "$25",
-    "address": "Champ de Mars, 5 Av. Anatole France, 75007 Paris, France",
-    "opening_time": "9:30 AM",
-    "closing_time": "10:45 PM",
-    "categories": ["Most Visited", "Recommended"],
+    "name": "Parcul Copiilor",
+    "city": "Timisoara",
+    "country": "Romania",
+    "entry_price": "",
+    "address": "Bulevardul Constantin Diaconovici Loga 43",
+    "opening_time": "12:00 AM",
+    "closing_time": "12:00 AM",
+    "categories": ["Cele mai vizitate", "Parcuri"],
     "images": [
-      "https://www.planetware.com/photos-large/F/eiffel-tower.jpg",
-      "https://www.thetrainline.com/cms/media/1360/france-eiffel-tower-paris.jpg?mode=crop&width=1080&height=1080&quality=70",
-      "https://www.grunge.com/img/gallery/the-bizarre-history-of-the-eiffel-tower/l-intro-1602781703.jpg",
-      "https://th-thumbnailer.cdn-si-edu.com/Q-oOOYwzuhWGLlUa0NvS4jbMGoI=/fit-in/1600x0/filters:focal(1500x1000:1501x1001)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/04/0f/040fc6b3-2c00-4592-9993-8c0c485fcf99/gettyimages-142198198.jpg"
+      "https://lh3.googleusercontent.com/p/AF1QipO14lzJ-IBJxS0Ah2HPNI4OBsaIOZXy1CuIjUQQ=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipOxd-z2xGvjoZSLBKkKOws5tzAqBRDGYYEnTBI4=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipMY5TWewNjVYKvKmFKxzIH9AUM6lbFVohClgdim=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipMtVE9Z02PMhXM-gnyWdwT91p4KZ5SrMG7S-f0b=s1360-w1360-h1020"
     ],
     "coordinates": {
       "lat": 48.8584,
@@ -66,18 +67,20 @@
   },
   {
     "id": 4,
-    "name": "Leaning Tower of Pisa",
-    "city": "Pisa",
-    "country": "Italy",
-    "entry_price": "$20",
-    "address": "Piazza del Duomo, 56126 Pisa PI, Italy",
-    "opening_time": "9:00 AM",
-    "closing_time": "07:00 PM",
-    "categories": ["Popular"],
+    "name": "Muzeul Satului Bănățean",
+    "city": "Timisoara",
+    "country": "Romania",
+    "entry_price": "15 lei",
+    "address": "Avram Imbroane 1",
+    "opening_time": "12:00 AM",
+    "closing_time": "05:00 PM",
+    "categories": ["Istorie"],
     "images": [
-      "https://cdn.mos.cms.futurecdn.net/QF5qpbogF6JCsuogypL3Fd.jpg",
-      "https://juliasalbum.com/wp-content/uploads/2019/04/leaning-tower-of-Pisa-Italy.jpg",
-      "https://i.pinimg.com/originals/9d/d9/47/9dd947df69dfb08fc55218c1eecad7ce.jpg"
+      "https://lh3.googleusercontent.com/p/AF1QipMAof6IRdeDofYk3-4vF1Cim0jlnnNo1z89NBTS=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipPKJBGIA3TEPkotMhM2YVLTxK1y87Agw2yYYXHC=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipOx2GliCgHzF11-n5X-ujvZz687YI2H5G9NZ1rq=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipPsGqY1aEl43CDLVimJ-0judpIktY7hOcmiZOe7=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipPwQv_ZUYZtkeqQBltaMUXuxHicykZzKncXZzXN=s1360-w1360-h1020"
     ],
     "coordinates": {
       "lat": 43.723,
@@ -86,98 +89,145 @@
   },
   {
     "id": 5,
-    "name": "Leaning Tower of Pisa",
-    "city": "Pisa",
-    "country": "Italy",
-    "entry_price": "$20",
-    "address": "Piazza del Duomo, 56126 Pisa PI, Italy",
-    "opening_time": "9:00 AM",
-    "closing_time": "07:00 PM",
-    "categories": ["Popular"],
+    "name": "Irish Public House",
+    "city": "Timisoara",
+    "country": "Romania",
+    "entry_price": "",
+    "address": "Strada General Traian Doda 1",
+    "opening_time": "8:00 AM",
+    "closing_time": "12:00 AM",
+    "categories": ["Pub-uri", "Cele mai vizitate", "Recomandat", "Populare"],
     "images": [
-      "https://cdn.mos.cms.futurecdn.net/QF5qpbogF6JCsuogypL3Fd.jpg",
-      "https://juliasalbum.com/wp-content/uploads/2019/04/leaning-tower-of-Pisa-Italy.jpg",
-      "https://i.pinimg.com/originals/9d/d9/47/9dd947df69dfb08fc55218c1eecad7ce.jpg"
+      "https://media-cdn.tripadvisor.com/media/photo-s/11/df/2f/0b/let-s-have-a-drink-in.jpg",
+      "https://lh3.googleusercontent.com/p/AF1QipN8dHnedCrHVv5TYvhsXIHzUJoKFb6iaqj1Jaqv=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipOdyQOOSWjntS7mRHFOPSSPLBjKH-tqTgKpLEzC=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipOU3AbhxOaVsDuUsq2gnIWSF-uMFInJA-D8ru_H=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipMB2UEA7b-aiw6YNz0hCuo3KV3eFlz-EjohHYKP=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipP7PBJFb-7rD1W7qAddijhKbFG24dNP6uZbki2z=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipOiogxwgPTsDqTWwdLPZb69kdaUkuXayUFHG_mN=s1360-w1360-h1020"
     ],
     "coordinates": {
       "lat": 43.723,
       "lon": 10.3966
+    },
+    "Menu": {
+      "Bere": ["Nenea Iancu 1L", "Nenea Iancu 0.5L", "Paulaner 0.5L"],
+      "Mancare": ["Burger", "Meniul zilei", "Chipsuri"]
+    },
+    "Preturi": {
+      "Bere": [24, 13, 19],
+      "Mancare": [35, 20, 24]
     }
   },
   {
     "id": 6,
-    "name": "Leaning Tower of Pisa",
-    "city": "Pisa",
-    "country": "Italy",
-    "entry_price": "$20",
-    "address": "Piazza del Duomo, 56126 Pisa PI, Italy",
-    "opening_time": "9:00 AM",
-    "closing_time": "07:00 PM",
-    "categories": ["Popular"],
+    "name": "MGM Bastion Pub & Food",
+    "city": "Timisoara",
+    "country": "Romania",
+    "entry_price": "",
+    "address": "Strada Martin Luther nr. 4",
+    "opening_time": "5:00 PM",
+    "closing_time": "02:00 AM",
+    "categories": ["Pub-uri"],
     "images": [
-      "https://cdn.mos.cms.futurecdn.net/QF5qpbogF6JCsuogypL3Fd.jpg",
-      "https://juliasalbum.com/wp-content/uploads/2019/04/leaning-tower-of-Pisa-Italy.jpg",
-      "https://i.pinimg.com/originals/9d/d9/47/9dd947df69dfb08fc55218c1eecad7ce.jpg"
+      "https://lh3.googleusercontent.com/p/AF1QipNf1OfqNcSIDnjF6fWAceCO99XbJCjNUrX5YSHK=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipM7Gx48axq8U8v9syqEj8uz73EmuM3Euoywe9zq=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipObdJh34xxz7xbKwun8UoKNF2pN27PQ1hPNgqKQ=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipOjxN3-5jbAqyUANG51TKUT814ohc5EoRLs0huX=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipNZpRO2eXRjJCNqZaJlQZtaWdcHdq0e4F15bXZ1=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipNHX7c-RGwQnIOCWTSXvtUfPbgsHTRdQKFka-bl=s1360-w1360-h1020"
     ],
     "coordinates": {
       "lat": 43.723,
       "lon": 10.3966
+    },
+    "Menu": {
+      "Bere": ["Tuborg", "Carlsberg", "holsten"],
+      "Mancare": ["Popcorn", "Ceafa de porc la gratar", "Paste Carbonara"]
+    },
+    "Preturi": {
+      "Bere": [11, 13, 12],
+      "Mancare": [8, 32, 36]
     }
   },
   {
     "id": 7,
-    "name": "Leaning Tower of Pisa",
-    "city": "Pisa",
-    "country": "Italy",
-    "entry_price": "$20",
-    "address": "Piazza del Duomo, 56126 Pisa PI, Italy",
-    "opening_time": "9:00 AM",
-    "closing_time": "07:00 PM",
-    "categories": ["Popular"],
+    "name": "Cuib d'Arte",
+    "city": "Timisoara",
+    "country": "Romania",
+    "entry_price": "",
+    "address": " Strada Mărășești 14",
+    "opening_time": "6:00 PM",
+    "closing_time": "02:00 AM",
+    "categories": ["Pub-uri", "Cele mai vizitate", "Recomandat"],
     "images": [
-      "https://cdn.mos.cms.futurecdn.net/QF5qpbogF6JCsuogypL3Fd.jpg",
-      "https://juliasalbum.com/wp-content/uploads/2019/04/leaning-tower-of-Pisa-Italy.jpg",
-      "https://i.pinimg.com/originals/9d/d9/47/9dd947df69dfb08fc55218c1eecad7ce.jpg"
+      "https://lh3.googleusercontent.com/p/AF1QipOe_bNtUVinMr4svnEQKMwxoarWmI8eWFW18rs_=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipOACE0yTMnT1HitHYpfn-zajXl0mDHZoPpXayHR=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipP90FojC5h1pI83lDA0vy58AuFgdSBhEdOY-ZE=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipMzu2hXtKLMP0AbXStfSYzNlx2g6CqA1QC5zlaz=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipMQnpzrbLiDUhIt-zeeTY2WVK4GqIemb_qpcDhz=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipNFI2uirv7XsN0cOHpwe7aHpLSyUJ7vNxBx7-TI=s680-w680-h510"
     ],
     "coordinates": {
       "lat": 43.723,
       "lon": 10.3966
+    },
+    "Menu": {
+      "Bere": ["Bere"],
+      "Mancare": ["Nu se serveste"]
+    },
+    "Preturi": {
+      "Bere": ["10-30"],
+      "Mancare": []
     }
   },
   {
     "id": 8,
-    "name": "Leaning Tower of Pisa",
-    "city": "Pisa",
-    "country": "Italy",
-    "entry_price": "$20",
-    "address": "Piazza del Duomo, 56126 Pisa PI, Italy",
-    "opening_time": "9:00 AM",
-    "closing_time": "07:00 PM",
-    "categories": ["Popular"],
+    "name": "Porto Arte",
+    "city": "Timisoara",
+    "country": "Romania",
+    "entry_price": "",
+    "address": " Splaiul Nicolae Titulescu - mal Bega",
+    "opening_time": "10:00 AM",
+    "closing_time": "12:00 AM",
+    "categories": ["Pub-uri", "Cele mai vizitate"],
     "images": [
-      "https://cdn.mos.cms.futurecdn.net/QF5qpbogF6JCsuogypL3Fd.jpg",
-      "https://juliasalbum.com/wp-content/uploads/2019/04/leaning-tower-of-Pisa-Italy.jpg",
-      "https://i.pinimg.com/originals/9d/d9/47/9dd947df69dfb08fc55218c1eecad7ce.jpg"
+      "https://lh3.googleusercontent.com/p/AF1QipMlmhME6ePKCov3WzNFYv7TvIwQEtCgegxU4n_t=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipN1RTuvcfhHNepl-ZjHIzWp4lqwg3AsSjdlNng=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipMiAoHY_BHoe0TyJye1_zIs0CVlJeBSt1iIJaph=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipMOH6EUN2MI0ZfqkQYCyY-9RqGnkqzXUmF5jKhx=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipOQLmh54lIgtr9FZLEk-rGhz_rAS9AFV-p9B0Oi=s680-w680-h510",
+      "https://lh3.googleusercontent.com/p/AF1QipNsghknT7Q5viOcAHMUsqt43t1JyOwaOJlswh2C=s680-w680-h510"
     ],
     "coordinates": {
       "lat": 43.723,
       "lon": 10.3966
+    },
+    "Menu": {
+      "Bere": ["Timisoreana", "Bere"],
+      "Mancare": ["Omleta"]
+    },
+    "Preturi": {
+      "Bere": [12, 13],
+      "Mancare": [16]
     }
   },
   {
     "id": 9,
-    "name": "Leaning Tower of Pisa",
-    "city": "Pisa",
-    "country": "Italy",
-    "entry_price": "$20",
-    "address": "Piazza del Duomo, 56126 Pisa PI, Italy",
-    "opening_time": "9:00 AM",
-    "closing_time": "07:00 PM",
-    "categories": ["Popular"],
+    "name": "Muzeul Național de Artă",
+    "city": "Timisoara",
+    "country": "Romania",
+    "entry_price": "21 lei",
+    "address": "Piata Unirii nr. 1",
+    "opening_time": "01:00 PM",
+    "closing_time": "09:00 PM",
+    "categories": ["Arta", "Recomandat", "Cele mai vizitate"],
     "images": [
-      "https://cdn.mos.cms.futurecdn.net/QF5qpbogF6JCsuogypL3Fd.jpg",
-      "https://juliasalbum.com/wp-content/uploads/2019/04/leaning-tower-of-Pisa-Italy.jpg",
-      "https://i.pinimg.com/originals/9d/d9/47/9dd947df69dfb08fc55218c1eecad7ce.jpg"
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/MuzeuArta_Timisoara.jpg/420px-MuzeuArta_Timisoara.jpg",
+      "https://lh3.googleusercontent.com/p/AF1QipPBaI6UlEp-vSDTx08bWLp8CL3i9EQc7PeUKry5=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipOQXt3yyRYUJ4Kp_ROuHJWTbxOS_AloMfVFquAd=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipPd4TL3J6nBA5JLLtaB5sZUBrcGxv2DiuaN5C3x=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipORSOzX2vvhP--2kKjc9kTxhI7SovQVs9gNMyTE=s1360-w1360-h1020"
     ],
     "coordinates": {
       "lat": 43.723,
@@ -186,18 +236,21 @@
   },
   {
     "id": 10,
-    "name": "Leaning Tower of Pisa",
-    "city": "Pisa",
-    "country": "Italy",
-    "entry_price": "$20",
-    "address": "Piazza del Duomo, 56126 Pisa PI, Italy",
-    "opening_time": "9:00 AM",
-    "closing_time": "07:00 PM",
-    "categories": ["Popular"],
+    "name": "Muzeul 2",
+    "city": "Timisoara",
+    "country": "Romania",
+    "entry_price": "21 lei",
+    "address": "Piata Unirii nr. 1",
+    "opening_time": "01:00 PM",
+    "closing_time": "09:00 PM",
+    "categories": ["Arta"],
     "images": [
-      "https://cdn.mos.cms.futurecdn.net/QF5qpbogF6JCsuogypL3Fd.jpg",
-      "https://juliasalbum.com/wp-content/uploads/2019/04/leaning-tower-of-Pisa-Italy.jpg",
-      "https://i.pinimg.com/originals/9d/d9/47/9dd947df69dfb08fc55218c1eecad7ce.jpg"
+      "https://lh3.googleusercontent.com/p/AF1QipOQXt3yyRYUJ4Kp_ROuHJWTbxOS_AloMfVFquAd=s1360-w1360-h1020",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/MuzeuArta_Timisoara.jpg/420px-MuzeuArta_Timisoara.jpg",
+      "https://lh3.googleusercontent.com/p/AF1QipPBaI6UlEp-vSDTx08bWLp8CL3i9EQc7PeUKry5=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipOQXt3yyRYUJ4Kp_ROuHJWTbxOS_AloMfVFquAd=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipPd4TL3J6nBA5JLLtaB5sZUBrcGxv2DiuaN5C3x=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipORSOzX2vvhP--2kKjc9kTxhI7SovQVs9gNMyTE=s1360-w1360-h1020"
     ],
     "coordinates": {
       "lat": 43.723,
@@ -206,18 +259,21 @@
   },
   {
     "id": 11,
-    "name": "Leaning Tower of Pisa",
-    "city": "Pisa",
-    "country": "Italy",
-    "entry_price": "$20",
-    "address": "Piazza del Duomo, 56126 Pisa PI, Italy",
-    "opening_time": "9:00 AM",
-    "closing_time": "07:00 PM",
-    "categories": ["Popular"],
+    "name": "Muzeul 3",
+    "city": "Timisoara",
+    "country": "Romania",
+    "entry_price": "21 lei",
+    "address": "Piata Unirii nr. 1",
+    "opening_time": "01:00 PM",
+    "closing_time": "09:00 PM",
+    "categories": ["Arta"],
     "images": [
-      "https://cdn.mos.cms.futurecdn.net/QF5qpbogF6JCsuogypL3Fd.jpg",
-      "https://juliasalbum.com/wp-content/uploads/2019/04/leaning-tower-of-Pisa-Italy.jpg",
-      "https://i.pinimg.com/originals/9d/d9/47/9dd947df69dfb08fc55218c1eecad7ce.jpg"
+      "https://lh3.googleusercontent.com/p/AF1QipORSOzX2vvhP--2kKjc9kTxhI7SovQVs9gNMyTE=s1360-w1360-h1020",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/MuzeuArta_Timisoara.jpg/420px-MuzeuArta_Timisoara.jpg",
+      "https://lh3.googleusercontent.com/p/AF1QipPBaI6UlEp-vSDTx08bWLp8CL3i9EQc7PeUKry5=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipOQXt3yyRYUJ4Kp_ROuHJWTbxOS_AloMfVFquAd=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipPd4TL3J6nBA5JLLtaB5sZUBrcGxv2DiuaN5C3x=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipORSOzX2vvhP--2kKjc9kTxhI7SovQVs9gNMyTE=s1360-w1360-h1020"
     ],
     "coordinates": {
       "lat": 43.723,
@@ -226,18 +282,43 @@
   },
   {
     "id": 12,
-    "name": "Leaning Tower of Pisa",
-    "city": "Pisa",
-    "country": "Italy",
-    "entry_price": "$20",
-    "address": "Piazza del Duomo, 56126 Pisa PI, Italy",
-    "opening_time": "9:00 AM",
-    "closing_time": "07:00 PM",
-    "categories": ["Popular"],
+    "name": "Muzeul 4",
+    "city": "Timisoara",
+    "country": "Romania",
+    "entry_price": "21 lei",
+    "address": "Piata Unirii nr. 1",
+    "opening_time": "01:00 PM",
+    "closing_time": "09:00 PM",
+    "categories": ["Arta"],
     "images": [
-      "https://cdn.mos.cms.futurecdn.net/QF5qpbogF6JCsuogypL3Fd.jpg",
-      "https://juliasalbum.com/wp-content/uploads/2019/04/leaning-tower-of-Pisa-Italy.jpg",
-      "https://i.pinimg.com/originals/9d/d9/47/9dd947df69dfb08fc55218c1eecad7ce.jpg"
+      "https://lh3.googleusercontent.com/p/AF1QipPd4TL3J6nBA5JLLtaB5sZUBrcGxv2DiuaN5C3x=s1360-w1360-h1020",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/MuzeuArta_Timisoara.jpg/420px-MuzeuArta_Timisoara.jpg",
+      "https://lh3.googleusercontent.com/p/AF1QipPBaI6UlEp-vSDTx08bWLp8CL3i9EQc7PeUKry5=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipOQXt3yyRYUJ4Kp_ROuHJWTbxOS_AloMfVFquAd=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipPd4TL3J6nBA5JLLtaB5sZUBrcGxv2DiuaN5C3x=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipORSOzX2vvhP--2kKjc9kTxhI7SovQVs9gNMyTE=s1360-w1360-h1020"
+    ],
+    "coordinates": {
+      "lat": 43.723,
+      "lon": 10.3966
+    }
+  },
+  {
+    "id": 13,
+    "name": "Muzeul 5",
+    "city": "Timisoara",
+    "country": "Romania",
+    "entry_price": "21 lei",
+    "address": "Piata Unirii nr. 1",
+    "opening_time": "01:00 PM",
+    "closing_time": "09:00 PM",
+    "categories": ["Arta"],
+    "images": [
+      "https://lh3.googleusercontent.com/p/AF1QipPBaI6UlEp-vSDTx08bWLp8CL3i9EQc7PeUKry5=s1360-w1360-h1020",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/MuzeuArta_Timisoara.jpg/420px-MuzeuArta_Timisoara.jpg",
+      "https://lh3.googleusercontent.com/p/AF1QipOQXt3yyRYUJ4Kp_ROuHJWTbxOS_AloMfVFquAd=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipPd4TL3J6nBA5JLLtaB5sZUBrcGxv2DiuaN5C3x=s1360-w1360-h1020",
+      "https://lh3.googleusercontent.com/p/AF1QipORSOzX2vvhP--2kKjc9kTxhI7SovQVs9gNMyTE=s1360-w1360-h1020"
     ],
     "coordinates": {
       "lat": 43.723,

@@ -41,9 +41,9 @@ const Home = () => {
         }
         ListHeaderComponent={
           <View style={{margin: 32}}>
-            <Title text="Where do" style={{fontWeight: 'normal'}} />
-            <Title text="you want to go" />
-            <Title text="Explore Attractions" style={styles.subtitle} />
+            <Title text="Aplicatia ta" style={{fontWeight: 'normal'}} />
+            <Title text="Pentru tot ce cauti" />
+            <Title text="Descopera Timisoara" style={styles.subtitle} />
             <Categories
               selectedCategory={selectedCategory}
               onCategoryPress={setSelectedCategory}

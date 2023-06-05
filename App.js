@@ -13,7 +13,7 @@ const App = () => {
     ...DefaultTheme,
     colors: {
       ...DefaultTheme.colors,
-      background: '#0000',
+      background: '#FFFFFF',
     },
   };
   return (
